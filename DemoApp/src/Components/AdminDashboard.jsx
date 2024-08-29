@@ -9,7 +9,7 @@ function AdminDashboard() {
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Admin Dashboard</h1>
       <CourseForm  />
-      <CourseList setEditingCourse={setEditingCourse} />
+      <CourseList  />
     </div>
   );
 }

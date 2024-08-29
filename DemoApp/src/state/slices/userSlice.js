@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  role: 'user', // Initial role is 'user'
+  role: 'user', 
 };
 
 const userSlice = createSlice({
@@ -9,7 +9,7 @@ const userSlice = createSlice({
   initialState,
   reducers: {
     switchRole: (state) => {
-      // Toggle between 'user' and 'admin'
+      
       state.role = state.role === 'user' ? 'admin' : 'user';
     },
   },
